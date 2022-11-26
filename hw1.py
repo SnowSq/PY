@@ -97,5 +97,5 @@ checkCoordinates(koordinate)
 
 a1, b1 = map(int, input('Введите координаты первой точки: ').split())
 a2, b2 = map(int, input('Введите координаты второй точки: ').split())
-R = round(((a2 - a1)**2 + (b2 - b1)**2)**(1/2), 2)
-print(R)
+N = round(((a2 - a1)**2 + (b2 - b1)**2)**(1/2), 2)
+print(N)
